@@ -1,0 +1,13 @@
+﻿Condition,Control
+shCon_Ribo,shCon_MIB
+shcon_Ribo,shcon_MIB
+shMOV10_Ribo,shMOV10_MIB
+shMSI2_Ribo,shMSI2_MIB
+shSYN_Ribo,shSYN_MIB
+shMSI2_Ribo,shcon_Ribo
+shMOV10_Ribo,shCon_Ribo
+shSYN_Ribo,shCon_Ribo
+shMSI2_MIB,shcon_MIB
+shMOV10_MIB,shCon_MIB
+shSYN_MIB,shCon_MIB
+shCon_Ribo,shcon_Ribo

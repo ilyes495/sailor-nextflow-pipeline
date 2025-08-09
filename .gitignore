@@ -1,0 +1,48 @@
+# Nextflow files
+.nextflow/
+.nextflow.log*
+nextflow_*
+work/
+results/
+*work*/
+
+# Output directories
+output_data/
+output*/
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+*~
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# R files
+.RData
+.Rhistory
+*.Rout
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (uncomment if you don't want to track data)
+# *.fastq.gz
+# *.fq.gz
+# *.bam
+# *.sam
+# *.vcf
+# *.bed
+
+# Configuration with sensitive paths (if created)
+local.config
+personal.config

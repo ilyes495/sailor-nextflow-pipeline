@@ -1,0 +1,84 @@
+name: sailor-pipeline
+channels:
+  - bioconda
+  - conda-forge
+
+dependencies:
+  # Core workflow management
+  - nextflow>=22.10.0
+  
+  # Python and core libraries
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - pysam>=0.19.0
+  - pybedtools
+  - biopython
+  
+  # RNA-seq alignment and processing
+  - star>=2.7.9a
+  - samtools>=1.15
+  - bcftools>=1.15
+  - htslib>=1.15
+  - picard>=2.27.0
+  - gatk4>=4.3.0
+  
+  # Quality control and preprocessing
+  - fastp>=0.23.0
+  - fastqc>=0.11.9
+  - multiqc>=1.12
+  - qualimap>=2.2.2
+  - trimmomatic>=0.39
+  
+  # Read counting and quantification
+  - htseq>=2.0.0
+  - featurecounts>=2.0.0
+  - subread>=2.0.0
+  
+  # Variant calling and filtering
+  - vcftools>=0.1.16
+  - bedtools>=2.30.0
+  - tabix>=1.11
+  - bgzip
+  
+  # R and statistical packages
+  - r-base>=4.1.0
+  - r-essentials
+  - bioconductor-deseq2
+  - bioconductor-genomicfeatures
+  - bioconductor-genomicranges
+  - bioconductor-rtracklayer
+  - bioconductor-biostrings
+  - bioconductor-genomicalignments
+  - bioconductor-rsamtools
+  - r-ggplot2
+  - r-dplyr
+  - r-readr
+  - r-tidyr
+  - r-stringr
+  - r-pheatmap
+  - r-rcolorbrewer
+  - r-viridis
+  - r-plotly
+  - r-dt
+  - r-argparse
+  - r-optparse
+  
+  # Additional bioinformatics tools
+  - emboss
+  - blast
+  - cd-hit
+  
+  # System utilities
+  - wget
+  - curl
+  - unzip
+  - gzip
+  - parallel
+  
+  # Java (required for some tools)
+  - openjdk>=8
