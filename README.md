@@ -29,7 +29,7 @@ This pipeline performs:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ilyes495/sailor-nextflow-pipeline
    cd sailor-nextflow-pipeline
    ```
 
