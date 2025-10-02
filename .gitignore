@@ -4,7 +4,6 @@
 nextflow_*
 work/
 results/
-*work*/
 
 # Output directories
 output_data/
