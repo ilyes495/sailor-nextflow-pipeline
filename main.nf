@@ -129,7 +129,7 @@ workflow {
       qualimap_ch = RUN_QUALIMAP(
         rnaseq_map_ch)
       
-
+      
       // // // PART 2: Run MultiQC on all qualimap results
       // RUN_MULTIQC(qualimap_ch.collect { it[3] })
   
